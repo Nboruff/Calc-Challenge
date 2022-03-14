@@ -1,0 +1,51 @@
+.App {
+  text-align: center;
+}
+
+.header {
+  height: 10vh;
+  pointer-events: none;
+  background: #645390;
+}
+
+.app {
+  background: rgb(5, 4, 90);
+  
+  display: flex;
+  flex-direction: row;
+}
+.calculator {
+    height: 100%;
+    position: absolute;
+    width: 100%;
+    overflow: hidden;
+}
+.calculator-display {
+  background: #43326e;
+  color:white;
+  height: 50vh;
+  position: relative;
+}
+.calculator-keypad {
+  background: #43326e;
+  height: 50vh;
+  width: 100%;
+}
+.disabled {
+  color: white;
+}
+.calculator-row1 {
+  background: #43326e;
+  
+}
+.number {
+  color: white;
+  text-align: center;
+  font: 30px Arial, sans-serif;
+}
+.fab-border{
+  border: 1px solid white;
+}
+ .function-buttons {
+   background:#fad652;
+ }
